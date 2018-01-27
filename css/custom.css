@@ -196,7 +196,7 @@ p {
   font-size: 20px;
   color: #B4BECB;
   line-height: 40px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 a {
@@ -406,6 +406,7 @@ a {
 .headertekst {
   width: 50%;
   margin-top: 5%;
+  margin-left: 5%;
 }
 
 @media screen and (max-width: 1792px) {
