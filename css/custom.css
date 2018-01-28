@@ -482,13 +482,24 @@ a {
 }
 /* Portfolio */
 
+.kaert{
+  background: #FFCC02;
+}
+
+.remote{
+  background: #008CFF;
+}
+
+.ramon{
+  background: #EAEAEA;
+}
+
 .portfolio {
   margin-top: 180px;
 }
 
 .portfolio-item {
   width: 100%;
-  background: #FFCC02;
   border-radius: 10px;
 }
 
@@ -498,6 +509,7 @@ a {
 
 .portfolio p {
   color: #092231;
+  opacity: 0.5;
 }
 
 .portfolio a {
