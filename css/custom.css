@@ -513,7 +513,15 @@ a {
 }
 
 .portfolio a {
-  color: #092231
+  color: #092231;
+  transition: 0.8s;
+  text-decoration: none;
+}
+
+.portfolio a:hover {
+  opacity: 0.2;
+  color: #092231;
+  transition: 0.4s;
 }
 
 .portfolio img {
