@@ -1,6 +1,7 @@
 * {
   font-family: 'Montserrat', sans-serif;
   box-sizing: border-box;
+  text-rendering: optimizeLegibility;
 }
 
 body {
@@ -28,7 +29,7 @@ body {
 
 @media screen and (max-width: 575px) {
   .content {
-    width: 80%;
+    width: 90%;
   }
   .case{
     width: 90% !important;
@@ -417,7 +418,6 @@ a {
 .headertekst {
   width: 50%;
   margin-top: 5%;
-  margin-left: 5%;
 }
 
 @media screen and (max-width: 1792px) {
@@ -771,6 +771,18 @@ a {
 .membertekst {
   text-align: center;
   margin-top: 40px;
+}
+
+.membertekst a {
+  color: #76CEFF;
+  line-height: 10px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.membertekst a:hover {
+  text-decoration: none;
+  color: #249EE2;
 }
 
 .membertekst h3 {
