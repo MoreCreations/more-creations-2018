@@ -206,9 +206,10 @@ h5 {
 
 p {
   font-size: 20px;
-  color: #54555a;
-  line-height: 40px;
+  color: #65697c;
+  line-height: 36px;
   font-weight: 300;
+  margin-top: 15px;
 }
 
 a {
