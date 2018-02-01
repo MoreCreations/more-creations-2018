@@ -1643,3 +1643,10 @@ width: 100%;
 .st0{
   fill: #76CEFF !important;
 }
+
+
+.big-ass-container{
+  width: 100vw;
+  height: auto;
+  overflow: hidden;
+}
