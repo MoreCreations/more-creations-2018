@@ -1701,3 +1701,6 @@ width: 100%;
   height: auto;
   overflow: hidden;
 }
+.team1:hover{
+  color:#76CEFF !important;
+}
