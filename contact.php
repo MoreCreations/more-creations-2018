@@ -13,7 +13,7 @@ if ( isset( $_POST[ 'submit' ] ) ) {
 	'X-Mailer: PHP/' . phpversion();
 
   if ( mail( $to, $subject, $body, $headers ) ) {
-		echo( '<div style="position:relative; z-index:999;" class="kontainer">
+		echo( '<div class="kontainer">
             <div class="verzonden">
               <h2>Verzonden! We proberen zo snel mogelijk contact met je op te nemen!</h2>
             </div>
@@ -278,6 +278,14 @@ if ( isset( $_POST[ 'submit' ] ) ) {
 				duration: 700
 			});
 		</script>
+    <script>
+
+      // TIJD VOOR FADE-OUT CONTACT BERICHT
+
+setTimeout(function() {
+  $('.verzonden').fadeOut('fast');
+}, 3000); // <-- time in milliseconds
+</script>
 <script>
 // Auto resize input
 function resizeInput() {
