@@ -1725,3 +1725,21 @@ width: 100%;
   transform: translate(-50%, -50%);
   animation: bericht 2s;
 }
+
+.verzend{
+
+    padding: 20px 30px;
+    background: #F4FBFF;
+    color: #76CEFF;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    display: inline-block;
+    transition: 0.8s ease;
+  }
+  .verzend:hover {
+    padding: 20px 50px;
+    background: #76CEFF;
+    color: #fff;
+  }

@@ -5,7 +5,7 @@ if ( isset( $_POST[ 'submit' ] ) ) {
 	$email = $_POST[ "email" ];
 	$bericht = $_POST[ "bericht" ];
 
-	$to = "morecreations@gmail.com";
+	$to = "hello@morecreations.nl";
 	$subject = "Nieuw bericht via morecreations.nl";
 	$body = "Naam: $naam - Email: $email - Bericht: $bericht";
 	$headers = 'From: noreply@morecreations.nl' . "\r\n" .
@@ -122,7 +122,7 @@ if ( isset( $_POST[ 'submit' ] ) ) {
         <span class="menu-item-name" >Portfolio</span>
       </a>        </div>
     <div class="item item4">
-      <a class="menu-item" href="contact.html">
+      <a class="menu-item" href="contact.php">
         <span class="menu-item-name" >Contact</span>
       </a>        </div>
 
@@ -148,29 +148,27 @@ if ( isset( $_POST[ 'submit' ] ) ) {
 
       <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Name is required">
         <span class="label-input100">Hoe heet je?</span>
-        <input class="input100" type="text" name="naam" placeholder="Plaats hier je naam">
+        <input required class="input100" type="text" name="naam" placeholder="Plaats hier je naam">
         <span class="focus-input100"></span>
       </div>
 
       <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
         <span class="label-input100">Wat is je email?</span>
-        <input class="input100" type="email" name="email" placeholder="Typ hier je email adres">
+        <input required class="input100" type="email" name="email" placeholder="Typ hier je email adres">
         <span class="focus-input100"></span>
       </div>
 
       <div class="wrap-input100 validate-input" data-validate = "Message is required">
         <span class="label-input100">Wat wil je graag vragen?</span>
-        <textarea class="input100" name="bericht" placeholder="Typ hier je vraag..."></textarea>
+        <textarea required class="input100" name="bericht" placeholder="Typ hier je vraag..."></textarea>
         <span class="focus-input100"></span>
       </div>
 
       <div class="container-contact100-form-btn">
-        <button class="button">
           <span>
             <input class="verzend" type="submit" name="submit" value="Versturen">
             <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
           </span>
-        </button>
       </div>
     </form>
   </div>
