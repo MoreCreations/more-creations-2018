@@ -224,7 +224,10 @@ a {
   color: #76CEFF;
   letter-spacing: 1px;
 }
+a:hover{
+  color: #76CEFF;
 
+}
 .gradient {
   background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
   background-repeat: no-repeat;
@@ -352,6 +355,16 @@ a {
 .menu-hover .menu-item.on:nth-child(even) .menu-item-label::before  {
 	background: white;
 }
+
+.case-menu .menu-item:nth-child(odd) .menu-item-name::before,
+.case-menu .menu-item:nth-child(odd) .menu-item-label::before {
+	background: black;
+}
+.case-menu .menu-item:nth-child(odd) .menu-item-name::before,
+.case-menu .menu-item:nth-child(odd) .menu-item-label::before {
+	background: black;;
+}
+
 
 
 @media screen and (max-width: 1000px) {
@@ -491,6 +504,12 @@ a {
 
 .rechts {
   text-align: right;
+}
+.case-menu a{
+  color:#092231;
+}
+.case-menu a:hover{
+  color:#092231 ;
 }
 .rechts2{
   position: relative !important;
@@ -1282,10 +1301,7 @@ body{
   color:#52a1e4;
   -webkit-overflow-scrolling:touch;
 }
-.nav-container a:hover{
-  color: #76CEFF;
-  text-decoration: none;
-}
+
 .nav-container.actief{
   background-color: #76CEFF;
   color:white;
@@ -1295,7 +1311,7 @@ body{
 }
 .nav-container.actief a:hover{
   text-decoration: none;
-  color: ;
+
 }
 .nav{
   width: 75%;
@@ -1357,7 +1373,7 @@ width: 100%;
   right: 5%;
 }
 .stripe.wit{
-  background-color:white;
+  background-color:white !important;
 }
 .hamburger{
   display: none !important;
@@ -1422,7 +1438,9 @@ width: 100%;
     position: absolute;
     right: 5%;
   }
-
+.case-hamburger .stripe{
+  background-color:#092231;
+}
   .item.loading{
   }
   .item{
@@ -1694,7 +1712,12 @@ width: 100%;
 .st0{
   fill: #76CEFF !important;
 }
-
+.st1 path{
+  fill:#092231 !important;
+}
+.st1 polygon{
+  fill:#092231 !important;
+}
 
 .big-ass-container{
   width: 100vw;
@@ -1706,7 +1729,7 @@ width: 100%;
 }
 
 
-/*    CONTACT BUTTON */ 
+/*    CONTACT BUTTON */
 .verzonden h2{
   color:white !important;
   font-size: 20px;
