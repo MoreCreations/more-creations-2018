@@ -428,6 +428,7 @@ a:hover{
   font-size: 20px;
   color: #C1E9FF;
   padding-top: 10px;
+  font-weight: 400;
 }
 
 .header h2::after {
