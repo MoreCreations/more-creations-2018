@@ -296,7 +296,7 @@ a:hover{
 */
 .menu-hover .menu-item-name {
 	padding: 0 0.35em;
-	font-weight: 600;
+	font-weight: 400;
 	line-height: 1.4;
 	transition: color 0.5s;
 	transition-timing-function: cubic-bezier(0.2,1,0.3,1);
