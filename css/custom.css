@@ -1216,11 +1216,11 @@ textarea.input100 {
 /* Remote Medics */
 
 .gradient-top {
-  background: #E5F3FF; /* Old browsers */
-  background: -moz-linear-gradient(top, #E5F3FF 51%, #ffffff 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #E5F3FF 51%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #E5F3FFF 51%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E5F3FF', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+  background: #F1FAFF; /* Old browsers */
+  background: -moz-linear-gradient(top, #F1FAFF 51%, #ffffff 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #F1FAFF 51%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #F1FAFF 51%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F1FAFF', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
   padding-top: 50px;
 }
 

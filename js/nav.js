@@ -1,4 +1,3 @@
-
     $(window).scroll(function scrolldown() {
       if ($(window).scrollTop() >400) {
         $('.nav-header').addClass('aan');
