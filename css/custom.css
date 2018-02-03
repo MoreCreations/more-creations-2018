@@ -534,7 +534,7 @@ a:hover{
 }
 
 .pm{
-  background: #6E1D8D;
+  background: #343591;
 }
 
 .travlr{
@@ -1251,11 +1251,11 @@ textarea.input100 {
 }
 
 .pm-gradient {
-  background: #F4E8F9; /* Old browsers */
-  background: -moz-linear-gradient(top, #F4E8F9 51%, #ffffff 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #F4E8F9 51%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #F4E8F9 51%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F4E8F9', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+  background: #9AE0FF; /* Old browsers */
+  background: -moz-linear-gradient(top, #9AE0FF 51%, #ffffff 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #9AE0FF 51%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #9AE0FF 51%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9AE0FF', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
   padding-top: 50px;
 }
 
