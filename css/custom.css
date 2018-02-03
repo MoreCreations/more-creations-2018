@@ -1225,38 +1225,38 @@ textarea.input100 {
 }
 
 .ramon-gradient {
-  background: #F1F1F1; /* Old browsers */
-  background: -moz-linear-gradient(top, #F1F1F1 51%, #ffffff 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #F1F1F1 51%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #E5F3FFF 51%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F1F1F1', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+  background: #ECECEC; /* Old browsers */
+  background: -moz-linear-gradient(top, #ECECEC 51%, #ffffff 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #ECECEC 51%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #ECECEC 51%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ECECEC', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
   padding-top: 50px;
 }
 
 .remote-gradient {
-  background: #BADAFF; /* Old browsers */
-  background: -moz-linear-gradient(top, #BADAFF 51%, #ffffff 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #BADAFF 51%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #E5F3FFF 51%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#BADAFF', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+  background: #E5F3FF; /* Old browsers */
+  background: -moz-linear-gradient(top, #E5F3FF 51%, #ffffff 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #E5F3FF 51%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #E5F3FF 51%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E5F3FF', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
   padding-top: 50px;
 }
 
 .travlr-gradient {
-  background: #E8FCF4; /* Old browsers */
-  background: -moz-linear-gradient(top, #E8FCF4 51%, #ffffff 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #E8FCF4 51%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #E8FCF4 51%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E8FCF4', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+  background: #EBFDF6; /* Old browsers */
+  background: -moz-linear-gradient(top, #EBFDF6 51%, #ffffff 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #EBFDF6 51%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #EBFDF6 51%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EBFDF6', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
   padding-top: 50px;
 }
 
 .pm-gradient {
-  background: #9AE0FF; /* Old browsers */
-  background: -moz-linear-gradient(top, #9AE0FF 51%, #ffffff 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #9AE0FF 51%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #9AE0FF 51%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9AE0FF', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+  background: #EAF0F7; /* Old browsers */
+  background: -moz-linear-gradient(top, #EAF0F7 51%, #ffffff 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #EAF0F7 51%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #EAF0F7 51%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EAF0F7', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
   padding-top: 50px;
 }
 
