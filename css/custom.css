@@ -523,7 +523,7 @@ a:hover{
 /* Portfolio */
 
 .kaert{
-  background: #FFCC02;
+  background: #13242E;
 }
 
 .remote{
@@ -568,7 +568,7 @@ a:hover{
 
 .portfolio a:hover {
   opacity: 0.2;
-  color: #092231;
+  color: white;
   transition: 0.4s;
 }
 
@@ -1257,6 +1257,15 @@ textarea.input100 {
   background: -webkit-linear-gradient(top, #EAF0F7 51%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom, #EAF0F7 51%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EAF0F7', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+  padding-top: 50px;
+}
+
+.voetbal-gradient {
+  background: #E7E8E9; /* Old browsers */
+  background: -moz-linear-gradient(top, #E7E8E9 51%, #ffffff 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #E7E8E9 51%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #E7E8E9 51%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E7E8E9', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
   padding-top: 50px;
 }
 
