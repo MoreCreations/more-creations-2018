@@ -1207,6 +1207,14 @@ textarea.input100 {
   width: 80%;
 }
 
+
+.soccer{
+  margin: 140px 0px 0px 0px;
+}
+
+.soccer img{
+margin-bottom: 25px;
+}
 @media screen and (max-width: 700px) {
   .project-text {
     width: 90%;
