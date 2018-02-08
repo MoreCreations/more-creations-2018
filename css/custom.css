@@ -898,8 +898,15 @@ a:hover{
 
 .contact {
   margin-top: 100px;
+  font-family: 'Montserrat', sans-serif !important;
 }
+.label-input100{
+  font-family: 'Montserrat', sans-serif !important;
+}
+.input100::placeholder{
+  font-family: 'Montserrat', sans-serif !important;
 
+}
 input {
 	outline: none;
 	border: none;
