@@ -250,7 +250,7 @@ if ( isset( $_POST[ 'submit' ] ) ) {
     <div class="row">
       <div class="col-sm-12 col-lg-8">
         <div class="footer-call-to-action" data-aos="fade-right">
-          <p>Ben je al overtuigd van wat wij kunnen? Aarzel niet langer en stuur een mailtje naar <a href="mailto:hello@morecreations.nl" class="gradient">hello@morecreations.nl</a></p>
+          <p>Ben je al overtuigd van wat wij kunnen? Aarzel niet langer en stuur een mailtje naar <br> <a href="mailto:hello@morecreations.nl" class="gradient">hello@morecreations.nl</a></p>
         </div>
       </div>
       <div class="col-sm-12 col-lg-4">
