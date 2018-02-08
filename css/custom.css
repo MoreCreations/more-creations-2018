@@ -494,6 +494,34 @@ a:hover{
   .andereheader p {
     width: 90%;
   }
+  .platform-manager__img{
+    transform: scale(2) !important;
+  }
+  .case-travelr__img{
+  }
+  .case-travelr__img--desktop{
+    display: none;
+  }
+  .case-travelr__img--mobile{
+    display: block !important;
+
+
+  }
+  .case-travelr__img--mobile {
+    width: 90%;
+    margin:15% auto;
+    -webkit-box-shadow: 0px 10px 95px -23px rgba(0,0,0,0.23);
+    -moz-box-shadow: 0px 10px 95px -23px rgba(0,0,0,0.23);
+    box-shadow: 0px 10px 95px -23px rgba(0,0,0,0.23);
+  }
+
+
+}
+.case-travelr__img--mobile{
+  display: none;
+}
+.platform-manager__img{
+  transform: scale(1);
 }
 
 /* Diensten */
