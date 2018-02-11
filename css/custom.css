@@ -221,11 +221,11 @@ a {
   text-decoration: none;
   font-size: 20px;
   font-weight: 600;
-  color: #76CEFF;
+  color: #092231;
   letter-spacing: 1px;
 }
 a:hover{
-  color: #76CEFF;
+  color: #092231;
 
 <<<<<<< Updated upstream
 }
@@ -343,12 +343,12 @@ a:hover{
 
 .menu-hover .menu-item:nth-child(odd) .menu-item-name::before,
 .menu-hover .menu-item:nth-child(odd) .menu-item-label::before {
-	background: #76CEFF;
+	background: #092231;
 }
 
 .menu-hover .menu-item:nth-child(even) .menu-item-name::before,
 .menu-hover .menu-item:nth-child(even) .menu-item-label::before  {
-	background: #76CEFF;
+	background: #092231;
 }
 .menu-hover .menu-item.on:nth-child(odd) .menu-item-name::before,
 .menu-hover .menu-item.on:nth-child(odd) .menu-item-label::before {
@@ -1355,12 +1355,12 @@ body{
   z-index: 1100;
   transition: all .2s ease-out;
   transform: translate3d(0,0,0) translateY(0);
-  color:#52a1e4;
+  color:#092231;
   -webkit-overflow-scrolling:touch;
 }
 
 .nav-container.actief{
-  background-color: #76CEFF;
+  background-color: #092231;
   color:white;
 }
 .nav-container.actief a{
@@ -1425,7 +1425,7 @@ width: 100%;
 .stripe{
   width: 20px;
   height: 5px;
-  background-color: #76CEFF;
+  background-color: #092231;
   position: absolute;
   right: 5%;
 }
@@ -1478,7 +1478,7 @@ width: 100%;
     background-color: inherit;
   }
   .nav-header.aan{
-    background-color: #76CEFF;
+    background-color: #092231;
   }
 
 
@@ -1693,11 +1693,11 @@ width: 100%;
 
 }
 .nav-container.bg2{
-  background-color: hsla(201, 100%, 73%, 0);
+  background-color: hsla(201, 68%, 11%, 0);
 
 }
 .nav-container.bg{
-  background-color: rgb(117, 207, 255) !important;
+  background-color: #092231 !important;
 
 
 }
@@ -1769,7 +1769,7 @@ width: 100%;
   fill:white !important;
 }
 .st0{
-  fill: #76CEFF !important;
+  fill: #092231 !important;
 }
 .st1 path{
   fill:#092231 !important;
@@ -1786,7 +1786,9 @@ width: 100%;
 .team1:hover{
   color:#76CEFF !important;
 }
-
+.team1{
+  color:#76CEFF !important;
+}
 
 /*    CONTACT BUTTON */
 .verzonden h2{
