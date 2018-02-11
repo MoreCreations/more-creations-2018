@@ -221,11 +221,11 @@ a {
   text-decoration: none;
   font-size: 20px;
   font-weight: 600;
-  color: #092231;
+  color: #76CEFF;
   letter-spacing: 1px;
 }
 a:hover{
-  color: #092231;
+  color: #76CEFF;
 
 <<<<<<< Updated upstream
 }
@@ -343,12 +343,12 @@ a:hover{
 
 .menu-hover .menu-item:nth-child(odd) .menu-item-name::before,
 .menu-hover .menu-item:nth-child(odd) .menu-item-label::before {
-	background: #092231;
+	background: #76CEFF;
 }
 
 .menu-hover .menu-item:nth-child(even) .menu-item-name::before,
 .menu-hover .menu-item:nth-child(even) .menu-item-label::before  {
-	background: #092231;
+	background: #76CEFF;
 }
 .menu-hover .menu-item.on:nth-child(odd) .menu-item-name::before,
 .menu-hover .menu-item.on:nth-child(odd) .menu-item-label::before {
@@ -1425,7 +1425,7 @@ width: 100%;
 .stripe{
   width: 20px;
   height: 5px;
-  background-color: #092231;
+  background-color: #76CEFF;
   position: absolute;
   right: 5%;
 }
@@ -1769,7 +1769,7 @@ width: 100%;
   fill:white !important;
 }
 .st0{
-  fill: #092231 !important;
+  fill: #76CEFF !important;
 }
 .st1 path{
   fill:#092231 !important;
