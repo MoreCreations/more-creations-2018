@@ -196,7 +196,7 @@ if ( isset( $_POST[ 'submit' ] ) ) {
 -->
 
 <div class="contactinfo">
-  <div class="content">
+  <div class="content cont">
     <h2>Onze Contactgegevens</h2>
       <div class="contactinformatie">
         <div class="row">

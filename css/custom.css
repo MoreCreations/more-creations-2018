@@ -150,6 +150,12 @@ h1 {
   }
 }
 
+.cont h2{
+  font-size: 36px;
+  line-height: 42px;
+}
+
+
 h2 {
   font-size: 48px;
   font-weight: 600;
@@ -1476,6 +1482,8 @@ width: 100%;
   .menu-hover .menu-item-name{
     font-size: 30px;
   }
+
+
   .nav-header{
     overflow: auto;
     background-color: inherit;
@@ -1791,10 +1799,16 @@ box-shadow: 0px 10px 25px -5px rgba(0,0,0,0.03);
 }
 .team1:hover{
   color:#76CEFF !important;
+  text-decoration: none;
+  opacity: 0.1;
+  transition: 0.6s;
 }
 .team1{
   color:#76CEFF !important;
+    transition: 1s;
 }
+
+
 
 /*    CONTACT BUTTON */
 .verzonden h2{
