@@ -221,11 +221,11 @@ a {
   text-decoration: none;
   font-size: 20px;
   font-weight: 600;
-  color: #092231;
+  color: #76CEFF;
   letter-spacing: 1px;
 }
 a:hover{
-  color: #092231;
+  color: #76CEFF;
 
 <<<<<<< Updated upstream
 }
@@ -343,26 +343,26 @@ a:hover{
 
 .menu-hover .menu-item:nth-child(odd) .menu-item-name::before,
 .menu-hover .menu-item:nth-child(odd) .menu-item-label::before {
-	background: #092231;
+	background: #76CEFF;
 }
 
 .menu-hover .menu-item:nth-child(even) .menu-item-name::before,
 .menu-hover .menu-item:nth-child(even) .menu-item-label::before  {
-	background: #092231;
+	background: #76CEFF;
 }
 .menu-hover .menu-item.on:nth-child(odd) .menu-item-name::before,
 .menu-hover .menu-item.on:nth-child(odd) .menu-item-label::before {
-	background: white;
+	background: black;
 }
 
 .menu-hover .menu-item.on:nth-child(even) .menu-item-name::before,
 .menu-hover .menu-item.on:nth-child(even) .menu-item-label::before  {
-	background: white;
+	background: grey;
 }
 
 .case-menu .menu-item:nth-child(odd) .menu-item-name::before,
 .case-menu .menu-item:nth-child(odd) .menu-item-label::before {
-	background: black;
+	background: grey;
 }
 .case-menu .menu-item:nth-child(odd) .menu-item-name::before,
 .case-menu .menu-item:nth-child(odd) .menu-item-label::before {
@@ -1360,11 +1360,14 @@ body{
 }
 
 .nav-container.actief{
-  background-color: #092231;
+  background-color: white;
   color:white;
+  -webkit-box-shadow: 0px 10px 25px -5px rgba(0,0,0,0.03);
+  -moz-box-shadow: 0px 10px 25px -5px rgba(0,0,0,0.03);
+  box-shadow: 0px 10px 25px -5px rgba(0,0,0,0.03);
 }
 .nav-container.actief a{
-  color:white;
+  color:#092231;
 }
 .nav-container.actief a:hover{
   text-decoration: none;
@@ -1425,12 +1428,12 @@ width: 100%;
 .stripe{
   width: 20px;
   height: 5px;
-  background-color: #092231;
+  background-color: #76CEFF;
   position: absolute;
   right: 5%;
 }
 .stripe.wit{
-  background-color:white !important;
+  background-color:#092231 !important;
 }
 .hamburger{
   display: none !important;
@@ -1478,7 +1481,10 @@ width: 100%;
     background-color: inherit;
   }
   .nav-header.aan{
-    background-color: #092231;
+    background-color: white;
+    -webkit-box-shadow: 0px 10px 25px -5px rgba(0,0,0,0.03);
+-moz-box-shadow: 0px 10px 25px -5px rgba(0,0,0,0.03);
+box-shadow: 0px 10px 25px -5px rgba(0,0,0,0.03);
   }
 
 
@@ -1697,7 +1703,7 @@ width: 100%;
 
 }
 .nav-container.bg{
-  background-color: #092231 !important;
+  background-color: white !important;
 
 
 }
@@ -1731,7 +1737,7 @@ width: 100%;
     color:white;
   }
   .item.active a{
-    color:white;
+    color:#092231;
   }
   .logo{
     width: 90px;
@@ -1766,10 +1772,10 @@ width: 100%;
 
 }
 .st0.active{
-  fill:white !important;
+  fill:#092231 !important;
 }
 .st0{
-  fill: #092231 !important;
+  fill: #76CEFF !important;
 }
 .st1 path{
   fill:#092231 !important;
