@@ -1802,12 +1802,18 @@ width: 100%;
 }
 .verzonden{
   position: fixed;
-  background-color: red;
+  background-color: #092231;
   width: 50vw;
   top:50%;
   left:50%;
   transform: translate(-50%, -50%);
-  animation: bericht 2s;
+  border-radius: 5px;
+
+}
+
+.verzonden h2{
+  padding: 40px 20px;
+  margin: 0;
 }
 
 .verzend{
