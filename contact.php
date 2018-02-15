@@ -19,7 +19,12 @@ if ( isset( $_POST[ 'submit' ] ) ) {
             </div>
           </div>' );
 	} else {
-		echo( '<div style="position:relative; z-index:999;" class="kontainer"><div class="verzonden"><h2>Woeps! Volgens mij ben je iets vergeten in te vullen! Check goed na of je alles wel hebt ingevuld!</h2> </div></div>');
+		echo( '<div style="position:relative; z-index:999;" class="kontainer">
+		<div class="verzonden">
+				<img src="img/contact-succes.svg">
+				<h2>Woeps! Volgens mij ben je iets vergeten in te vullen! Check goed na of je alles wel hebt ingevuld!</h2>
+			</div>
+		</div>');
 	}
 }
 ?>
@@ -280,10 +285,13 @@ if ( isset( $_POST[ 'submit' ] ) ) {
 
       // TIJD VOOR FADE-OUT CONTACT BERICHT
 
-// setTimeout(function() {
-//   $('.verzonden').fadeOut('fast');
-// }, 3000); // <-- time in milliseconds
-// </script>
+setTimeout(function() {
+  $('.verzonden').addClass('animate-out');
+}, 3000); // <-- time in milliseconds
+setTimeout(function() {
+  $('.verzonden').addClass('remove');
+}, 5000); // <-- time in milliseconds
+</script>
 // <script>
 // // Auto resize input
 // function resizeInput() {
