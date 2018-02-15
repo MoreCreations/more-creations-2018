@@ -154,19 +154,19 @@ if ( isset( $_POST[ 'submit' ] ) ) {
 
       <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Name is required">
         <span class="label-input100">Hoe heet je?</span>
-        <input  class="input100" type="text" name="naam" placeholder="Plaats hier je naam">
+        <input required class="input100" type="text" name="naam" placeholder="Plaats hier je naam">
         <span class="focus-input100"></span>
       </div>
 
       <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
         <span class="label-input100">Wat is je email?</span>
-        <input  class="input100" type="email" name="email" placeholder="Typ hier je email adres">
+        <input required class="input100" type="email" name="email" placeholder="Typ hier je email adres">
         <span class="focus-input100"></span>
       </div>
 
       <div class="wrap-input100 validate-input" data-validate = "Message is required">
         <span class="label-input100">Wat wil je graag vragen?</span>
-        <textarea  class="input100" name="bericht" placeholder="Typ hier je vraag..."></textarea>
+        <textarea required class="input100" name="bericht" placeholder="Typ hier je vraag..."></textarea>
         <span class="focus-input100"></span>
       </div>
 

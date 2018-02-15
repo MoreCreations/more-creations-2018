@@ -1399,6 +1399,12 @@ body{
   text-decoration: none;
 
 }
+.nav-container.main {
+  box-shadow: none;
+}
+.nav-container.main .nav-header.aan{
+  box-shadow: none;
+}
 .nav{
   width: 75%;
   margin: 0 auto;
@@ -1836,8 +1842,9 @@ box-shadow: 0px 10px 25px -5px rgba(0,0,0,0.03);
 }
 
 .verzonden img{
-  width: 100%;
+  width: 90%;
   margin-bottom: 20px;
+  margin-left: 5%;
   animation: verzondenimg 1s;
 
 }
@@ -1855,7 +1862,7 @@ box-shadow: 0px 10px 25px -5px rgba(0,0,0,0.03);
 .verzonden{
   position: fixed;
   background-color: white;
-  width: 85vw;
+  width: 80vw;
   top:50%;
   left:50%;
   transform: translate(-50%, -50%);
@@ -1865,19 +1872,32 @@ box-shadow: 0px 10px 25px -5px rgba(0,0,0,0.03);
   box-shadow: 0px 5px 93px -30px rgba(0,0,0,0.26);
 padding: 20px;
   animation: verzonden 1.5s;
+  z-index: 500;
 
 }
 
 @media screen and (min-width: 800px) {
   .verzonden {
-    width: 50vw;
+    width: 40vw;
     padding: 50px;
+    border-radius: 7px;
+
+  }
+  .verzonden img {
+    width: 70%;
+    margin-left: 15%;
   }
 }
 @media screen and (min-width: 1400px) {
   .verzonden {
     width: 30vw;
     padding: 90px;
+    border-radius: 10px;
+
+  }
+  .verzonden img {
+    width: 80%;
+    margin-left: 10%;
   }
 }
 
