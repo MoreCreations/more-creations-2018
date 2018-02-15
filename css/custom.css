@@ -150,6 +150,12 @@ h1 {
   }
 }
 
+.cont h2{
+  font-size: 36px;
+  line-height: 42px;
+}
+
+
 h2 {
   font-size: 48px;
   font-weight: 600;
@@ -568,6 +574,10 @@ a:hover{
 
 .travlr{
   background: #38F1A6;
+}
+
+.iok{
+  background: #F05A6C;
 }
 
 .portfolio {
@@ -1312,6 +1322,15 @@ margin-bottom: 25px;
   padding-top: 50px;
 }
 
+.iok-gradient {
+  background: #FEF0F1; /* Old browsers */
+  background: -moz-linear-gradient(top, #FEF0F1 51%, #ffffff 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #FEF0F1 51%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #FEF0F1 51%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FEF0F1', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+  padding-top: 50px;
+}
+
 
 
 
@@ -1476,6 +1495,8 @@ width: 100%;
   .menu-hover .menu-item-name{
     font-size: 30px;
   }
+
+
   .nav-header{
     overflow: auto;
     background-color: inherit;
@@ -1791,10 +1812,16 @@ box-shadow: 0px 10px 25px -5px rgba(0,0,0,0.03);
 }
 .team1:hover{
   color:#76CEFF !important;
+  text-decoration: none;
+  opacity: 0.1;
+  transition: 0.6s;
 }
 .team1{
   color:#76CEFF !important;
+    transition: 1s;
 }
+
+
 
 /*    CONTACT BUTTON */
 .remove {
