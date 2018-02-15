@@ -15,13 +15,14 @@ if ( isset( $_POST[ 'submit' ] ) ) {
   if ( mail( $to, $subject, $body, $headers ) ) {
 		echo( '<div class="kontainer">
             <div class="verzonden">
+						<img src="img/contact-succes.svg">
               <h2>Verzonden! We proberen zo snel mogelijk contact met je op te nemen!</h2>
             </div>
           </div>' );
 	} else {
 		echo( '<div style="position:relative; z-index:999;" class="kontainer">
 		<div class="verzonden">
-				<img src="img/contact-succes.svg">
+				<img src="img/contact-fail.svg">
 				<h2>Woeps! Volgens mij ben je iets vergeten in te vullen! Check goed na of je alles wel hebt ingevuld!</h2>
 			</div>
 		</div>');
