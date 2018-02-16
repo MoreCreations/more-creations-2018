@@ -120,7 +120,7 @@ body {
 
 .button:hover {
   padding: 20px 50px;
-  background: #76CEFF;
+  background-color: #76CEFF;
   color: #fff;
 }
 
@@ -605,9 +605,8 @@ a:hover{
 }
 
 .portfolio a:hover {
-  opacity: 0.2;
-  color: white;
   transition: 0.4s;
+  font-size: 21px;
 }
 
 .portfolio img {
@@ -632,6 +631,7 @@ a:hover{
   text-align: center;
   margin-top: 100px;
 }
+
 
 @media screen and (max-width: 575px) {
 .portfolio-image {
